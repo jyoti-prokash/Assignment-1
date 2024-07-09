@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Azeret Mono", monospace;
+}
+/* Banner Section */
+.background-section{
+    background-image: url(../assets/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 652px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 2px solid red;
+}
+
+.background-container{
+    width: 998px;
+    height: 582px;
+    margin: 26px auto;
+    border: 2px solid rgb(45, 20, 168);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+
+}
+.bg-content{
+    text-align: center;
+    
+}
+/* .bg-content{
+    display: flex;
+    width: 998px;
+    height: 582px;
+    margin: 26px auto;
+    border: 2px solid rgb(70, 22, 202);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+} */
+.bg-title{
+    font-size: 38px;
+    font-weight: 600;
+    
+}
+.bg-description{
+    font-size: 16px;
+    font-weight: 400px;
+    opacity: 0.7;
+}
+.bg-btn{
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* main section why development */
+.main-container{
+    width: 1140px;
+    height: 1395px;
+    margin: 0 auto;
+    border: 2px solid green;
+    margin-top: 74px;
+    padding: 80px;
+}
+.why-title{
+font-size: 32px;
+font-weight: 800px;
+margin: 20px;
+}
+.title-text{
+    font-size: 16px;
+    font-weight: 300px;
+    opacity: 0.7;
+}
+.main-head{
+    text-align: center;
+    padding: 0 47px;
+    border: 2px solid red;
+}
+/* main layer section */
+.layer-1{
+    display: flex;
+    margin-top: 45px;
+}
+.layer1-text{
+    width: 80%;
+    border: 2px solid gray;
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 18px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.layer1-text p{
+    font-size: 18px;
+    font-weight: 300;
+    opacity: 0.7;
+}
+.layer1-img{
+    width: 40%;
+    border: 2px solid red;
+    
+}
+/* mixed styles */
+.layer-btn{
+    font-size: 15px;
+    font-weight: 400;
+    height: 48px;
+    width: 150px;
+    margin-top: 10px;
+    padding: 8px;
+    opacity: 0.7;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 3px;
+    cursor: pointer;
+}
+.layer1-text-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+}
+/* section-2 */
+.layer-2{
+    display: flex;
+    margin-top: 45px;
+    flex-direction: row-reverse;
+}
+.layer2-text{
+    width: 80%;
+    border: 2px solid gray;
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 18px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.layer2-text p{
+    font-size: 18px;
+    font-weight: 300;
+    opacity: 0.7;
+}
+.layer2-img{
+    width: 40%;
+    border: 2px solid red;
+}
+.layer2-text-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+}
+
