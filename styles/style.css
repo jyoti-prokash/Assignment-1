@@ -6,6 +6,35 @@
     box-sizing: border-box;
     font-family: "Azeret Mono", monospace;
 }
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 250px;
+
+}
+nav ul li {
+    list-style: none;
+}
+.name{
+    padding: 10px;
+    width: 228px;
+    height: 58px;
+    font-size: 28px;
+    font-weight: 700;
+}
+nav ul li button{
+    border: 20px;
+    padding: 10px;
+    width: 228px;
+    height: 58px;
+    cursor: pointer;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    font-size: 20px;
+    font-weight: 500;
+}
+
 /* Banner Section */
 .background-section{
     background-image: url(../assets/Hero-bg.png);
@@ -69,8 +98,9 @@
     height: 1395px;
     margin: 0 auto;
     border: 2px solid green;
-    margin-top: 74px;
+    margin: 70px auto;
     padding: 80px;
+
 }
 .why-title{
 font-size: 32px;
@@ -162,4 +192,40 @@ text-align: left;
     font-weight: 700;
     color: rgba(13, 19, 33, 0.7);
 }
+/* inspiration - section */
+.inspiration{
+    width: 1140px;
+    height: 777px;
+    border: 2px solid rgb(28, 179, 38);
+    margin: 32px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.insp-container{
+    margin: 48px;
+}
+.insp-title{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    width: 852px;
+    height: 39px;
+    margin: 0 auto;
+    border: 2px solid green;
 
+    
+}
+.insp-text{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+
+}
+.yt-vedio{
+    width: 1040px;
+    height: 514px;
+    
+}
