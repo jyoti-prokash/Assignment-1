@@ -84,9 +84,8 @@ nav ul li button{
     width: 1140px;
     height: 1095px;
     margin: 0 auto;
-    margin: 70px auto;
-    padding: 80px;
-
+    margin: 50px auto;
+    padding: 30px;
 }
 .why-title{
 font-size: 32px;
@@ -178,8 +177,8 @@ text-align: left;
 /* inspiration - section */
 .inspiration{
     width: 1140px;
-    height: 777px;
-    margin: 32px auto;
+    height: 750px;
+    margin: 25px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -187,7 +186,7 @@ text-align: left;
     text-align: center;
 }
 .insp-container{
-    margin: 48px;
+    margin: 0px 35px;
 }
 .insp-title{
     font-size: 32px;
@@ -195,19 +194,18 @@ text-align: left;
     line-height: 37px;
     width: 852px;
     height: 39px;
-    margin: 20px auto;
+    margin: 10px auto;
 }
 .insp-text{
     font-size: 16px;
     font-weight: 400;
     opacity: 0.7;
-
+    margin: 40px;
 }
 .yt-vedio{
     width: 1040px;
     height: 514px;
     border-radius: 8px;
-    
 }
 /* card- container section */
 .card-section{
@@ -215,7 +213,6 @@ text-align: left;
     height: 483px;
     margin: 70px auto;
 }
-
 .card-header{
 text-align: center;
 margin: 20px auto;
@@ -258,7 +255,6 @@ margin: 20px auto;
     width: 284px;
     color: black;
     margin: 10px;
-    
 }
 .card-title{
     font-size: 24px;
@@ -268,7 +264,6 @@ margin: 20px auto;
     text-align: left;
 }
 /* support background */
-
 .support-bg{
     background-image: url(../assets/handshake.jpg);
     background-position: center;
@@ -289,7 +284,6 @@ margin: 20px auto;
     margin: 64px auto;
     width: 1044px;
     height: 186px;
-
 }
 .support-title{
     font-size: 32px;
