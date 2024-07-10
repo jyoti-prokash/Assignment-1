@@ -28,7 +28,6 @@ nav ul li button{
     width: 228px;
     height: 58px;
     cursor: pointer;
-    border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     opacity: 0.8;
     font-size: 20px;
@@ -45,14 +44,12 @@ nav ul li button{
     height: 652px;
     margin: 0 auto;
     margin-top: 30px;
-    border: 2px solid red;
 }
 
 .background-container{
     width: 998px;
     height: 582px;
     margin: 26px auto;
-    border: 2px solid rgb(45, 20, 168);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,28 +58,18 @@ nav ul li button{
 }
 .bg-content{
     text-align: center;
-    
 }
-/* .bg-content{
-    display: flex;
-    width: 998px;
-    height: 582px;
-    margin: 26px auto;
-    border: 2px solid rgb(70, 22, 202);
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-} */
 .bg-title{
     font-size: 38px;
     font-weight: 600;
+    margin: 20px;
     
 }
 .bg-description{
     font-size: 16px;
     font-weight: 400px;
     opacity: 0.7;
+    margin: 20px;
 }
 .bg-btn{
     font-size: 18px;
@@ -95,9 +82,8 @@ nav ul li button{
 /* main section why development */
 .main-container{
     width: 1140px;
-    height: 1395px;
+    height: 1095px;
     margin: 0 auto;
-    border: 2px solid green;
     margin: 70px auto;
     padding: 80px;
 
@@ -115,7 +101,6 @@ margin: 20px;
 .main-head{
     text-align: center;
     padding: 0 47px;
-    border: 2px solid red;
 }
 /* main layer section */
 .layer-1{
@@ -124,7 +109,6 @@ margin: 20px;
 }
 .layer1-text{
     width: 80%;
-    border: 2px solid gray;
     color: rgba(13, 19, 33, 0.7);
 font-family: Azeret Mono;
 font-size: 18px;
@@ -140,7 +124,6 @@ text-align: left;
 }
 .layer1-img{
     width: 40%;
-    border: 2px solid red;
     
 }
 /* mixed styles */
@@ -152,15 +135,10 @@ text-align: left;
     margin-top: 10px;
     padding: 8px;
     opacity: 0.7;
-    border: 1px solid rgb(13, 19, 33);
     border-radius: 3px;
     cursor: pointer;
 }
-.all-peragraph{
-        font-size: 16px;
-        font-weight: 400px;
-        opacity: 0.7;
-}
+
 /*         main layer section                 */
 .layer1-text-title{
     font-size: 24px;
@@ -175,14 +153,13 @@ text-align: left;
 }
 .layer2-text{
     width: 80%;
-    border: 2px solid gray;
     color: rgba(13, 19, 33, 0.7);
-font-family: Azeret Mono;
-font-size: 18px;
-font-weight: 500;
-line-height: 36px;
-letter-spacing: 0%;
-text-align: left;
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 .layer2-text p{
     font-size: 18px;
@@ -191,18 +168,17 @@ text-align: left;
 }
 .layer2-img{
     width: 40%;
-    border: 2px solid red;
 }
 .layer2-text-title{
     font-size: 24px;
     font-weight: 700;
     color: rgba(13, 19, 33, 0.7);
 }
+
 /* inspiration - section */
 .inspiration{
     width: 1140px;
     height: 777px;
-    border: 2px solid rgb(28, 179, 38);
     margin: 32px auto;
     display: flex;
     flex-direction: column;
@@ -219,10 +195,7 @@ text-align: left;
     line-height: 37px;
     width: 852px;
     height: 39px;
-    margin: 0 auto;
-    border: 2px solid green;
-
-    
+    margin: 20px auto;
 }
 .insp-text{
     font-size: 16px;
@@ -233,58 +206,59 @@ text-align: left;
 .yt-vedio{
     width: 1040px;
     height: 514px;
+    border-radius: 8px;
     
 }
 /* card- container section */
 .card-section{
     width: 1140px;
-    height: 463px;
-    margin: 10px auto;
-    border: 2px solid red;
+    height: 483px;
+    margin: 70px auto;
 }
-/* .card-container{
-    width: 946px;
-    height: 250px;
-} */
+
 .card-header{
 text-align: center;
 margin: 20px auto;
-border: 2px solid blue;
 }
 .child-title{
     font-size: 32px;
     font-weight: 800;
+    margin-top: 20px;
 }
 .parent-card{
-    border: 2px solid green;
     display: flex;
     width: 1140px;
-    height: 300px;
+    height: 350px;
 }
 .card-html{
     background-color: #fff6f4;
-    border: 2px solid yellow;
     padding: 40px;
+    text-align: left;
 }
 .card-css{
     background-color: #f2f6fe;
-    border: 2px solid rgb(79, 79, 60);
     padding: 40px;
-    
+    text-align: left;
 }
 .card-js{
     background-color: #fffdf2;
-    border: 2px solid yellow;
     padding: 40px;
+    text-align: left;
     
 }
-.card-anchor{
+.card-p{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    padding-left: 7px;
+}
+.card-learn-more{
     font-size: 16px;
     font-weight: 700;
     width: 284px;
-    height: 20px;
     color: black;
     margin: 10px;
+    
 }
 .card-title{
     font-size: 24px;
@@ -315,7 +289,6 @@ border: 2px solid blue;
     margin: 64px auto;
     width: 1044px;
     height: 186px;
-    border: 2px solid rgb(169, 15, 15);
 
 }
 .support-title{
@@ -346,6 +319,8 @@ border: 2px solid blue;
 }
 .support-btn{
     width: 120px;
+    font-size: 20px;
+    font-weight: 600px;
     height: 58px;
     border-radius: 8px;
     background: rgb(255, 255, 255);
@@ -359,11 +334,11 @@ border: 2px solid blue;
 footer{
     width: 1440px;
     height: 100px;
-    border: 2px solid yellow;
     margin: 80px auto 0 auto;
     display: flex;
     justify-content: space-between;
     padding: 32px 150px;
+    background-color: rgb(237, 236, 236);
 }
 /* .social-contact{
     display: flex;
