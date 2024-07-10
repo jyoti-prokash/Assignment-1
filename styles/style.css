@@ -156,6 +156,12 @@ text-align: left;
     border-radius: 3px;
     cursor: pointer;
 }
+.all-peragraph{
+        font-size: 16px;
+        font-weight: 400px;
+        opacity: 0.7;
+}
+/*         main layer section                 */
 .layer1-text-title{
     font-size: 24px;
     font-weight: 700;
@@ -229,3 +235,62 @@ text-align: left;
     height: 514px;
     
 }
+/* card- container section */
+.card-section{
+    width: 1140px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+}
+.card-container{
+    width: 946px;
+    height: 115px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+}
+.card-header{
+    font-size: 32px;
+    font-weight: 800;
+}
+.all-card{
+    border: 2px solid rgb(38, 22, 210);
+    width: 1140px;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-html{
+    background-color: #fff6f4;
+    border: 2px solid yellow;
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    margin: 0 24px;
+}
+.card-css{
+    background-color: #f2f6fe;
+    border: 2px solid rgb(79, 79, 60);
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    margin: 0 24px;
+}
+.card-js{
+    background-color: #fffdf2;
+    border: 2px solid yellow;
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    margin: 0 24px;
+}
+
