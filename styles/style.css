@@ -293,6 +293,79 @@ border: 2px solid blue;
     padding: 5px;
     text-align: left;
 }
+/* support background */
 
+.support-bg{
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 314px;
+    margin: 38px auto;
+    border-radius: 15px;
+    padding-top: 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+.support-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 64px auto;
+    width: 1044px;
+    height: 186px;
+    border: 2px solid rgb(169, 15, 15);
 
+}
+.support-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.support-text{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin: 16px 0px;
+}
+.support-sms{
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+.support-btn{
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin: 0px 16px;
+    justify-content: center;
+    padding: 17px 20px 17px 20px;
+    cursor: pointer;
+}
 
+/* footer section */
+footer{
+    width: 1440px;
+    height: 100px;
+    border: 2px solid yellow;
+    margin: 80px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 150px;
+}
+/* .social-contact{
+    display: flex;
+    justify-content: space-between;
+} */
