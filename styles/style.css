@@ -248,7 +248,7 @@ text-align: left;
 } */
 .card-header{
 text-align: center;
-margin: 0px auto;
+margin: 20px auto;
 border: 2px solid blue;
 }
 .child-title{
@@ -278,5 +278,21 @@ border: 2px solid blue;
     padding: 40px;
     
 }
+.card-anchor{
+    font-size: 16px;
+    font-weight: 700;
+    width: 284px;
+    height: 20px;
+    color: black;
+    margin: 10px;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 800px;
+    margin: 10px;
+    padding: 5px;
+    text-align: left;
+}
+
 
 
